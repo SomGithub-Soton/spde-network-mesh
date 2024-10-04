@@ -33,6 +33,7 @@ library(osmdata)
 # Access road network
 # Define your area of interest and fetch the OSM data
 # Example: region <- opq(bbox = "Your bounding box here") %>% osmdata_sf()
+```
 
 ### Step 2: Create Buffer for Each Road Segment
 
@@ -45,6 +46,7 @@ library(stplanr)
 
 # Create a 20-meter buffer around each road segment
 buffered_roads <- geo_buffer(your_osm_data, dist = 20)
+```
 
 ### Step 3: Generate Clipped Buffer Polygon
 
@@ -56,6 +58,7 @@ bounding_box <- st_as_sfc("Your bounding box here")
 
 # Clip the buffered segments
 clipped_polygon <- st_intersection(buffered_roads, bounding_box)
+```
 
 ### Step 4: Apply Network Triangulation
 
@@ -71,6 +74,7 @@ cutoff <- 10             # adjust as necessary
 
 # Apply triangulation
 spde_mesh <- inla.mesh.2d(clipped_polygon, max.edge = max.edge, cutoff = cutoff)
+```
 
 Step 5: Visualization and Finalization
 
@@ -80,7 +84,7 @@ Visualize the created network mesh along with the traffic accident locations.
 # Plotting the results
 plot(spde_mesh)
 points(traffic_accident_locations, col = "red", pch = 19)  # Adjust as necessary
-
+```
 
 ## Results
 The final SPDE network mesh is tailored to the road network, containing 12666 vertices and visualized along with 84360 traffic accident events.
