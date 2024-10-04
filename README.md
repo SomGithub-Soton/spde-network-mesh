@@ -96,6 +96,8 @@ This methodology enables a more realistic prediction of traffic accidents by foc
 
 - Blangiardo, M., & Cameletti, M. (2015). Spatial and spatio-temporal Bayesian models with R-INLA. John Wiley & Sons.
 
+- Krainski, E., Gómez-Rubio, V., Bakka, H., Lenzi, A., Castro-Camilo, D., Simpson, D., ... & Rue, H. (2018). Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC.
+
 - Lindgren, F. (2012). Continuous domain spatial models in R-INLA. The ISBA Bulletin, 19(4), 14-20.
 
 - Lindgren, F., & Rue, H. (2015). Bayesian spatial modelling with R-INLA. Journal of statistical software, 63(19).
