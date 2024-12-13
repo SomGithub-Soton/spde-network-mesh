@@ -93,7 +93,7 @@ The final SPDE network mesh is tailored to the road network, containing 12666 ve
 This methodology enables a more realistic prediction of traffic accidents by focusing solely on areas where they can realistically occur. The triangulation process, in combination with appropriate buffer sizes, leads to effective modeling and prediction.
 
 ## Related Publications
-1. **<a href="https://github.com/wpgp/RtU_vaccination_modelling">Spatio-temporal modeling of traffic accidents incidence on urban road networks based on an explicit network triangulation</a>**  
+1. **<a href="https://github.com/wpgp/RtU_vaccination_modelling"  target="_blank">Spatio-temporal modeling of traffic accidents incidence on urban road networks based on an explicit network triangulation</a>**  
    This paper explores spatio-temporal modeling techniques for understanding the distribution of traffic accidents on urban road networks in London, United Kingdom. It uses explicit network triangulation methods to model traffic accident incidences across time and space, providing insights into areas with high accident risk.
 
 2. **<a href="https://www.sciencedirect.com/science/article/pii/S2211675322000835">Spatiotemporal modeling of traffic risk mapping: A study of urban road networks in Barcelona, Spain</a>**  
