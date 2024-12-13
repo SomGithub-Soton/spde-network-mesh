@@ -93,10 +93,10 @@ The final SPDE network mesh is tailored to the road network, containing 12666 ve
 This methodology enables a more realistic prediction of traffic accidents by focusing solely on areas where they can realistically occur. The triangulation process, in combination with appropriate buffer sizes, leads to effective modeling and prediction.
 
 ## Related Publications
-1. **<a href="https://www.tandfonline.com/doi/abs/10.1080/02664763.2022.2104822"{:target="_blank"}>Spatio-temporal modeling of traffic accidents incidence on urban road networks based on an explicit network triangulation</a>**  
+1. **<a href="https://www.tandfonline.com/doi/abs/10.1080/02664763.2022.2104822">Spatio-temporal modeling of traffic accidents incidence on urban road networks based on an explicit network triangulation</a>**  
    This paper explores spatio-temporal modeling techniques for understanding the distribution of traffic accidents on urban road networks in London, United Kingdom. It uses explicit network triangulation methods to model traffic accident incidences across time and space, providing insights into areas with high accident risk.
 
-2. **<a href="https://www.sciencedirect.com/science/article/pii/S2211675322000835"{:target="_blank"}>Spatiotemporal modeling of traffic risk mapping: A study of urban road networks in Barcelona, Spain</a>**  
+2. **<a href="https://www.sciencedirect.com/science/article/pii/S2211675322000835">Spatiotemporal modeling of traffic risk mapping: A study of urban road networks in Barcelona, Spain</a>**  
    This article discusses spatiotemporal methods for mapping traffic risks on urban roads in Barcelona, Spain. The authors focus on how to use traffic accident data over time to build predictive models for risk mapping, helping improve traffic safety and infrastructure planning.
 
 ## References
